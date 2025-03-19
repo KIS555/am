@@ -429,11 +429,7 @@ local EspPlayerToggle = Tabs.pageEsp:AddToggle("EspPlayerToggle", {
 EspPlayerToggle:OnChanged(function(value)
     getgenv().Settings.EspPlayerToggle = value
     toggleESP(value)
-end)
-
--------------------------------------------------------[[ Toggle Main ]]-------------------------------------------------------
-
-
+end
 
 -------------------------------------------------------[[ Settings ]]-------------------------------------------------------
 
